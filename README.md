@@ -4,3 +4,11 @@
 ###  Problem Statement: The target feature is Accident_severity which is a multi-class variable. The task is to classify this variable based on the other 31 features step-by-step by going through each day's task. 
 
 Source Link:(https://dans.knaw.nl/nl/data-diensten/narcis/)
+
+*Exploratory Data Analysis (EDA): Investigated a dataset of 12316 records with 32 features, extracting insights on accident timing, driver characteristics, conditions, and casualty details.
+
+*Hypothesis Testing: Analyzed gender's impact on accidents, speeding's significance, weekend trends, and daytime vs. nighttime accidents, concluding on gender equality, disproving speeding's significance, and examining weather conditions' influence.
+
+*Preprocessing: Applied manual and frequency encoding, handled feature correlation , and addressed target variable imbalance with SMOTE.
+
+*Model Selection: Explored various machine learning models including RandomForest, ExtraTrees, XGBoost, selecting ExtraTreesClassifier for superior performance.
